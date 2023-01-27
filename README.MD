@@ -1,0 +1,2 @@
+Build as Release
+
