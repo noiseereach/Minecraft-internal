@@ -4,7 +4,7 @@ void GL::Font::Build(int height)
 {
 	hdc = wglGetCurrentDC();
 	base = glGenLists(96);
-	HFONT hFont = CreateFontA(-height, 0, 0, 0, FW_MEDIUM, FALSE, FALSE, FALSE, ANSI_CHARSET, OUT_TT_PRECIS, CLIP_DEFAULT_PRECIS, PROOF_QUALITY, FF_DONTCARE | DEFAULT_PITCH, "Consolas");
+	HFONT hFont = CreateFontA(-height, 0, 0, 0, FW_MEDIUM, FALSE, FALSE, FALSE, ANSI_CHARSET, OUT_TT_PRECIS, CLIP_DEFAULT_PRECIS, PROOF_QUALITY, FF_DONTCARE | DEFAULT_PITCH, "Consolas"); //Consolas fontunu başka bir font ile değişebilirsiniz örnek Mojang-Regular
 	HFONT hOldFont = (HFONT)SelectObject(hdc, hFont);
 	wglUseFontBitmaps(hdc, 32, 96, base);
 	SelectObject(hdc, hOldFont);
