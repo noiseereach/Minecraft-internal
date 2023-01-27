@@ -221,7 +221,7 @@ void DrawHud()
 
 	glFont.Print(0, 15, rgb::green, "|");
 	glFont.Print(7, 15, rgb::green, "N");
-	glFont.Print(15, 15, rgb::white, "oise | Universal Xray");
+	glFont.Print(15, 15, rgb::white, "oise | Universal Cheat");
 	glFont.Print(0, 93, rgb::mero, "-little gui update ");
 	if (wallhacks)
 	{
