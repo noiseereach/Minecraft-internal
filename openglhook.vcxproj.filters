@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\includes">
+      <UniqueIdentifier>{c5f1453c-68eb-4e4d-a092-d4ca751a9da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opengl text">
+      <UniqueIdentifier>{54212204-b880-4d59-a5a9-deff7ed75c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\esp">
+      <UniqueIdentifier>{13f78a01-44e4-43da-8fb6-643e26e70f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\opengl draw">
+      <UniqueIdentifier>{6b948fca-0c9f-4c7c-a669-1ffd81af19dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDK\Esp\Color.cpp">
+      <Filter>Source Files\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Esp\Position.cpp">
+      <Filter>Source Files\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Esp\Radius.cpp">
+      <Filter>Source Files\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GlText\gltext.cpp">
+      <Filter>Source Files\opengl text</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\GlDraw\glDraw.cpp">
+      <Filter>Source Files\opengl draw</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MinHook\src\HDE\pstdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Esp\Color.h">
+      <Filter>Source Files\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Esp\Position.h">
+      <Filter>Source Files\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Esp\Radius.h">
+      <Filter>Source Files\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\includes.h">
+      <Filter>Source Files\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GlText\gltext.h">
+      <Filter>Source Files\opengl text</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\GlDraw\glDraw.h">
+      <Filter>Source Files\opengl draw</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
